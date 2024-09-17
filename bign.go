@@ -13,7 +13,7 @@ import (
     "golang.org/x/crypto/cryptobyte"
     "golang.org/x/crypto/cryptobyte/asn1"
 
-    "github.com/pedroalbanese/belt/belthash"
+    "github.com/pedroalbanese/belt/hash/belt"
 )
 
 /*
