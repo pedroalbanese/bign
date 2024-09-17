@@ -7,7 +7,7 @@ import (
     "crypto/subtle"
     "encoding/binary"
 
-    "github.com/pedroalbanese/belt/hash/belthash"
+    "github.com/pedroalbanese/belt/belthash"
 )
 
 func putu32(ptr []byte, a uint32) {
