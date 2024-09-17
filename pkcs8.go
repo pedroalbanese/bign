@@ -33,9 +33,9 @@ func init() {
     AddNamedCurve(elliptic.P384(), oidNamedCurveP384)
     AddNamedCurve(elliptic.P521(), oidNamedCurveP521)
 
-    AddNamedCurve(bign.P256v1(), oidNamedCurveBign256v1)
-    AddNamedCurve(bign.P384v1(), oidNamedCurveBign384v1)
-    AddNamedCurve(bign.P512v1(), oidNamedCurveBign512v1)
+    AddNamedCurve(curves.P256v1(), oidNamedCurveBign256v1)
+    AddNamedCurve(curves.P384v1(), oidNamedCurveBign384v1)
+    AddNamedCurve(curves.P512v1(), oidNamedCurveBign512v1)
 }
 
 // 私钥 - 包装
