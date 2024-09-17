@@ -9,7 +9,7 @@ import (
     "crypto/x509/pkix"
 
     "golang.org/x/crypto/cryptobyte"
-    "github.com/pedrolbanese/bign/elliptic"
+    "github.com/pedrolbanese/bign/curves"
 )
 
 const ecPrivKeyVersion = 1
